@@ -4,8 +4,8 @@ Simple script to create a CSV file from aisstream.
 ## Execution
 
 ```sh
-python -m venv venv
-source venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
 ```
